@@ -15,6 +15,6 @@ public partial class InTenYears1 : ContentPage
 			lblResult.Text = "Enter a valid age";
 			return;
 		}	
-		lblResult.Text ="You are" + age.ToString() + " years old";
+		lblResult.Text ="Hi " + lblName.Text + "! in ten years you will be " + (age+10).ToString() + " years old";
     }
 }

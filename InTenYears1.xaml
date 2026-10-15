@@ -8,12 +8,14 @@
     <Grid RowDefinitions="*,*" Margin="10">
         <Label TextColor="OrangeRed" FontSize="Large" x:Name="lblResult" HorizontalTextAlignment="Center" Text="InTenYears Calculater" Grid.Row="0" />
         <VerticalStackLayout Spacing="10" Grid.Row="1" VerticalOptions="End" >
-            <Label Text="Roei"/>
-            <Entry/>
+            <Label Text="Name"/>
+            <Entry x:Name="lblName"/>
             <Label Text="Age" />
             <Entry x:Name="lblAge" />
             <Button Clicked="Button_Clicked" Text="calculate" BorderColor="DarkOrange" />
         </VerticalStackLayout>
+        
+        
     </Grid>
     
     
